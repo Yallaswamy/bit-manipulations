@@ -1,0 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    for (char ch = 'a'; ch <= 'z'; ch++) {
+    cout << char(ch & '_');    // prints ABCDEFGHIJKLMNOPQRSTUVWXYZ
+}
+}
